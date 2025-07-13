@@ -17,7 +17,7 @@ function Work() {
 
         {/* Grid of Works */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10 py-10">
-          {Array.from({ length: 12 }).map((_, index) => (
+          {Array.from({ length: 4 }).map((_, index) => (
             <div
               key={index}
               className="overflow-hidden rounded-lg shadow-md hover:scale-105 transition"
