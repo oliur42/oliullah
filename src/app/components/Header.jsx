@@ -11,7 +11,7 @@ function Header() {
       <div className="w-full max-w-[1080px] mx-auto flex justify-between items-center p-4">
         {/* Logo */}
         <div className="flex items-center">
-          <Link href="http://localhost:3000/">
+          <Link href="/">
             <p className="text-[22px] font-bold text-white hover:text-green-800 cursor-pointer">
               MD OLIULLAH{" "}
             </p>
@@ -22,7 +22,7 @@ function Header() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-white">
           <li className="border-b-2 border-b-black hover:text-green-600 hover:border-b-green-600">
-            <Link href="http://localhost:3000/">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li className="border-b-2 border-b-black hover:text-green-600 hover:border-b-green-600">
             <Link href="/serv">Service</Link>
