@@ -53,7 +53,7 @@ function Header() {
           <ul className="flex flex-col gap-4">
             <li>
               <Link
-                href="http://localhost:3000/"
+                href="/"
                 onClick={() => setMenuOpen(false)}
                 className="block py-2 border-b border-gray-700 hover:text-green-500"
               >
